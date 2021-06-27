@@ -118,7 +118,7 @@ def generate_plot(examples, epoch, n=7):
 		pyplot.axis('off')
 		pyplot.imshow(examples[i])
 
-	filename = f'generated_plot_{epoch+1}.png'
+	filename = f'generated_plot_e{epoch+1}.png'
 	pyplot.savefig(filename)
 	pyplot.close()
 
