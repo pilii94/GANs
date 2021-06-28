@@ -21,7 +21,7 @@ from matplotlib import pyplot
 from config import config
 import colored
 
-os.environ["CUDA_VISIBLE_DEVICES"]="0,1,2"
+os.environ["CUDA_VISIBLE_DEVICES"]="4,5"
 
 
 class SimpleGAN():
